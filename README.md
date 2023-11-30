@@ -39,7 +39,7 @@ Model (Class)
 |Name|Description|
 |----|----|
 |__init__|用來定義模型|
-|add	將layer添加至模型|
+|add|將layer添加至模型|
 |initialize|建立各層之間的關係，設置權重和偏量的初始值，設置Loss function，metrics用於設置顯示的指標|
 |visual|顯示結構|
 |predict|預測|
