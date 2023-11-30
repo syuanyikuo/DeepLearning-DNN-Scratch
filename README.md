@@ -34,8 +34,8 @@ Dense (Class)
 |Name|Description|
 |----|----|
 |xavier_initialization|用來計算適合的權重初始值，n_in為上一層的神經元數，n_out為下一層的神經元數，weight_size是所需權重的張量|
-Model (Class)
 
+Model (Class)
 |Name|Description|
 |----|----|
 |__init__|用來定義模型|
