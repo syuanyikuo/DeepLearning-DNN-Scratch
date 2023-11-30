@@ -1,5 +1,5 @@
 # DeepLearning-DNN-Scratch
-交大深度學習課程作業 手刻DNN
+交大深度學習作業 手刻DNN
 
 ## Overview
 
