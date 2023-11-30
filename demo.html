@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)chrome://new-tab-page/ -->
+<html class="focus-outline-visible"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+    .neural-network {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .layer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .neuron {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #4CAF50;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="neural-network">
+    <svg width="400" height="200" style="border: 1px solid black;">
+        <!-- Layer 1 Neurons -->
+        <circle cx="50" cy="50" r="10" class="neuron"></circle>
+        <circle cx="50" cy="150" r="10" class="neuron"></circle>
+
+        <!-- Layer 2 Neurons -->
+        <circle cx="200" cy="30" r="10" class="neuron"></circle>
+        <circle cx="200" cy="100" r="10" class="neuron"></circle>
+        <circle cx="200" cy="170" r="10" class="neuron"></circle>
+
+        <!-- Layer 3 Neuron -->
+        <circle cx="350" cy="100" r="10" class="neuron"></circle>
+
+        <!-- Connections -->
+        <!-- Layer 1 to Layer 2 -->
+        <line x1="60" y1="50" x2="190" y2="30" stroke="black"></line>
+        <line x1="60" y1="50" x2="190" y2="100" stroke="black"></line>
+        <line x1="60" y1="50" x2="190" y2="170" stroke="black"></line>
+        <line x1="60" y1="150" x2="190" y2="30" stroke="black"></line>
+        <line x1="60" y1="150" x2="190" y2="100" stroke="black"></line>
+        <line x1="60" y1="150" x2="190" y2="170" stroke="black"></line>
+
+        <!-- Layer 2 to Layer 3 -->
+        <line x1="210" y1="30" x2="340" y2="100" stroke="black"></line>
+        <line x1="210" y1="100" x2="340" y2="100" stroke="black"></line>
+        <line x1="210" y1="170" x2="340" y2="100" stroke="black"></line>
+    </svg>
+</div>
+
+
+
+</body></html>
