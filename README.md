@@ -16,11 +16,13 @@
 ### /deeplearning/Layer/layer.py
 
 Input (Class) 
+
 |Name|Description|
 |----|----|
 |__init__	|用來定義輸入層，input_shape為輸入資料的張量大小(shape)|
 
 Dense (Class)  
+
 |Name|Description|
 |----|----|
 |__init__	|用來定義全連接層，units為神經元個數，activation用於設置Activation function，use_bias用於決定是否要在計算中加入bias|
