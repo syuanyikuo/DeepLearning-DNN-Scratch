@@ -1,8 +1,8 @@
 # DeepLearning-DNN-Scratch
 交大深度學習課程作業 手刻DNN
 
-# Overview
-/deeplearning/Activations/activations.py
+## Overview
+### /deeplearning/Activations/activations.py
 |Name|Description|
 |----|----|
 |Softmax|Activation function (SoftMax)|
@@ -11,7 +11,7 @@
 |Defult|Activation function (不經過函數變換直接輸出)|
 |calculate_derivative|用來處理關於Activation function的微分|
 
-/deeplearning/Layer/layer.py
+### /deeplearning/Layer/layer.py
 Input (Class) 
 |Name|Description|
 |----|----|
@@ -22,7 +22,7 @@ Dense (Class)
 |----|----|
 |__init__	|用來定義全連接層，units為神經元個數，activation用於設置Activation function，use_bias用於決定是否要在計算中加入bias|
 
-/deeplearning/Losses/losses.py
+### /deeplearning/Losses/losses.py
 |Name|Description|
 |----|----|
 |cross_entropy_error|Loss function (Cross Entropy Error)|
@@ -30,11 +30,12 @@ Dense (Class)
 |root_mean_square_error|Loss function (Root Mean Square Error)|
 |calculate_derivative|用來處理關於Loss function的微分，index用來設置要對y_pred, y_true中的哪一項數值進行微分|
 
-/deeplearning/Model/model.py
+### /deeplearning/Model/model.py
 |Name|Description|
 |----|----|
 |xavier_initialization|用來計算適合的權重初始值，n_in為上一層的神經元數，n_out為下一層的神經元數，weight_size是所需權重的張量|
 Model (Class)
+
 |Name|Description|
 |----|----|
 |__init__|用來定義模型|
